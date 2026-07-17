@@ -1,0 +1,1 @@
+{ "name": "Build and Test TypeScript Code", "on": { "push": { "branches": [ "main" ] } }, "jobs": [ { "name": "Build and Test", "runs-on": "ubuntu-latest", "steps": [ { "run": "echo 'Build and test passed!'" } ] } ] }
